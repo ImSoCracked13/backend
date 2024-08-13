@@ -3,7 +3,7 @@ const app = express()
 
 
 const mongoose = require('mongoose')
-const db = "mongodb://127.0.0.1:27017/gunSkins"
+const db = "mongodb+srv://redoofhealer:Redoofhealer@cluster0.ztxu7.mongodb.net/gunSkins"
 
 mongoose.connect(db)
     .then(() => console.log('Connect to Gun Skins Database Success!'))
