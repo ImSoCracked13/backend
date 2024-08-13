@@ -20,6 +20,4 @@ app.use(cors())
 const gunSkinRouter = require('./api/routes/gunSkinRouter')
 gunSkinRouter(app)
 
-
-const port = 4000
-app.listen(port)
+app.listen(process.env.PORT || 4444)
