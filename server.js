@@ -7,7 +7,7 @@ const db = "mongodb+srv://redoofhealer:Redoofhealer@cluster0.ztxu7.mongodb.net/g
 
 mongoose.connect(db)
     .then(() => console.log('Connect to Gun Skins Database Success!'))
-.catch((err) => console.error('Connect to Gun Skins Database Failed! ' + err))
+.catch((err) => console.error('Connect to Gun Skins Database Failed!' + err))
 
 
 const bodyParser = require('body-parser')
